@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVX1PBZvBZAbYOHt7tiq9A5_hxCllbjL3eg&usqp=CAU" width="1000" height="425">
+    </div>
+</div>
+{% endblock %}
